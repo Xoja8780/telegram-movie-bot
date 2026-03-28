@@ -2,7 +2,6 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from config import API_KEY
 from handlers import start, films, watchlist, trailer
 import logging
 from database.database import init_db
